@@ -1,6 +1,6 @@
 # IoT
 ICP-1 https://github.com/sflcoder/IoT/wiki/ICP-1    
-ICP-2 https://github.com/sflcoder/IoT/tree/master/ICP-2
+ICP-2 https://github.com/sflcoder/IoT/wiki/ICP-2
 
 
 Team members  
