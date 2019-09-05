@@ -6,9 +6,9 @@ SoftwareSerial esp8266(9,10);
 LiquidCrystal_PCF8574 lcd(0x27);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 
 #define SSID "ASUS"     // "SSID-WiFiname" 
-#define PASS "nihao@123"       // "password"
+#define PASS "*******"       // "password"
 #define IP "184.106.153.149"// thingspeak.com ip
-String msg = "GET /update?key=RDO7I06IBRN5FOD8"; //change it with your api key like "GET /update?key=Your Api Key"
+String msg = "GET /update?key=***********"; //change it with your api key like "GET /update?key=Your Api Key"
 
 int switchState2 = 0;
 int switchState6 = 0;
