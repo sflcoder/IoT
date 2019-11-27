@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<script src="http://www.hivemq.com/demos/websocket-client/js/mqttws31.js" type="text/javascript"></script>
+<script src="index.js" type="text/javascript"></script>
+<title>robot controller</title>
+</head>
+<body style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none; position:fixed" unselectable="on">
+<button id="sub_btn" style="font-size:120%" onclick="client.subscribe('iot_class_icp4/recv', {qos: 2}); document.getElementById('sub_btn').innerHTML = 'Subscribed'; document.getElementById('sub_btn').style = 'color:green'">Subscribe</button>
+<p><b>Server Status: </b><span id="status" style="color:red">Not Connected</span></p>
+<p><b>Last Received Message: </b><span id="recv_msg"></span></p>
+<p><b>Sent Message: </b><span id="sent_msg"></span></p>
+
+
+<div style="text-align:center;width:100%;height:100%;position:fixed;margin-top: 15%; ">
+  <button style="font-size: 200%" ontouchstart="moveup()" ontouchend="end()">FORWARD</button><br><br>
+  <button style="font-size: 200%" ontouchstart="moveleft()" ontouchend="end()">LEFT</button>
+  <button style="font-size: 200% ; margin-left: 55px;" ontouchstart="moveright()" ontouchend="end()">RIGHT</button><br><br>
+  <button style="font-size: 200%" ontouchstart="movedown()" ontouchend="end()">BACKWARD</button>
+</div>
+</body>
+</html>
