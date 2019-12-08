@@ -11,7 +11,8 @@ M2 ICP-1 https://github.com/sflcoder/IoT/wiki/M2-ICP-1
 M2 ICP-2 https://github.com/sflcoder/IoT/wiki/M2-ICP2  
 M2 ICP-3 https://github.com/sflcoder/IoT/wiki/M2-ICP3  
 M2 ICP-5 https://github.com/sflcoder/IoT/wiki/M2-ICP5    
-M2 ICP-6 https://github.com/sflcoder/IoT/wiki/M2-ICP6
+M2 ICP-6 https://github.com/sflcoder/IoT/wiki/M2-ICP-6&7  
+M2 ICP-7 https://github.com/sflcoder/IoT/wiki/M2-ICP-6&7
 
 
 Team members    
